@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int N;
+	cin >> N;
+	for(int X = 0 ; X<10000; X++){
+		if(X%N ==2){
+			cout << X << endl;
+		}
+	}
+}
