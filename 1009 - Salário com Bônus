@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+	string nome;
+	double fixo;
+	double montante;
+	cin >> nome >> fixo >> montante;
+	cout << fixed;
+	cout.precision(2);
+	cout << "TOTAL = R$ " << fixo+montante*15/100 << endl;
+	
+}
