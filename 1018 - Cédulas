@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int valor;
+	int n100; 
+	int n50;
+	int n20;
+	int n10;
+	int n5;
+	int n2;
+	int n1;
+	int r100; 
+	int r50;
+	int r20;
+	int r10;
+	int r5;
+	int r2;
+	int r1;
+	cin >> valor;
+	n100 = valor/100;
+	r100 = valor%100;
+	n50 = r100/50;
+	r50 = r100%50;
+	n20 = r50/20;
+	r20 = r50%20;
+	n10 = r20/10;
+	r10 = r20%10;
+	n5 = r10/5;
+	r5 = r10%5;
+	n2 = r5/2;
+	r2 = r5%2;
+	n1 = r2;
+	cout << valor << endl;
+	cout << n100 << " nota(s) de R$ 100,00" << endl;
+	cout << n50 << " nota(s) de R$ 50,00" << endl;
+	cout << n20 << " nota(s) de R$ 20,00" << endl;
+	cout << n10 << " nota(s) de R$ 10,00" << endl;
+	cout << n5 << " nota(s) de R$ 5,00" << endl;
+	cout << n2 << " nota(s) de R$ 2,00" << endl;
+	cout << n1 << " nota(s) de R$ 1,00" << endl;
+}
+	
+	
+	
+	
+
+	
